@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("IRIS-2.csv")
 df.head()
 
 df['species'].value_counts()
